@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ITK Testimonials</title>
+        <style>
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: 'Urbanist', sans-serif;
+                font-size: 15px;
+            }
+            body{
+                /* background-image: url('people-working.jpg'); */
+                /* background-size: 100%; */
+                background-color: white;
+            }
+            ul{
+                list-style: none;
+            }
+            .container {
+                width: 100%;
+                margin: auto;
+            }
+            .nav-main{
+                display: flex;
+                font-size: 12px;
+                justify-content: space-between;
+                align-items: center;
+                height: 35px;
+                padding: 15px 0;
+            }
+            .nav-brand{
+                width: 100px;
+                height: 42px;
+                margin-left: 35px;
+            }
+            .nav-menu {
+                display: flex;
+            }
+            .nav-main ul li{
+                padding: 15px;
+            }
+            .nav-main ul.nav-menu {
+                flex: 1;
+                padding: 100px;
+            }
+            .nav-main ul li a:hover{
+                border-bottom: 3px solid blue;
+            }
+            .nav-main ul li a{
+                padding: 13px;
+            }
+            .paragraph-main{
+                margin-bottom: 60px;
+                text-align: justify;
+                font-family: 'Urbanist', sans-serif;
+                font-size: 20px;
+            }
+            p{
+                text-align: justify;
+            }
+            .test-cards{
+                display: grid;
+                
+                width: 100%;
+                height: 300px;
+                background-color: white;
+                grid-template-columns: repeat(4, 1fr);
+                column-gap: 20px;
+                justify-content: space-around;
+                justify-items: stretch;
+                font-family: 'Urbanist', sans-serif;
+                border-color: darkgreen;
+                border-style: solid;
+            }
+            .test-1, .test-2, .test-3, .test-4{
+                margin: 10px;        
+            }
+            .test-cards img{
+                width: 25%;
+                height: 25%;
+                border-radius: 50%;
+            }
+            .autor {
+                text-align: right;
+                font-family: 'Urbanist', sans-serif;
+                font-size: 10px;
+                font-style: italic;
+            }          
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class=nav-main>
+              <a href="https://itk.mx/es/home/"><img src="https://itk.mx/wp-content/uploads/2021/05/ITKsquare-logo-07.png" alt="Logo ITKquare" class="nav-brand" title="Instituto Tecnológico Ksquare"></a>
+              <ul class="nav-menu">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">JavaScript</a>
+                </li>
+                <li>
+                  <a href="#">Oracle Cloud Engineer</a>
+                </li>
+                <li>
+                  <a href="#">Salesforce Platform Developer</a>
+                </li>
+                <li>
+                  <a href="#">Java</a>
+                </li>
+                <li>
+                  <a href="#">Salesforce Consultant</a>
+                </li>
+              </ul>
+            </nav>
+            <hr>
+        </div>
+        <p class="paragraph-main">
+            Excepteur pork loin in porchetta, kielbasa tempor meatball beef ribs esse burgdoggen minim jowl ball tip chicken. Dolor veniam sausage boudin dolore, meatball andouille consectetur beef incididunt deserunt labore porchetta. Tempor magna chuck tongue dolor turducken filet mignon pancetta dolore in picanha aliquip. Pork chop alcatra chuck chicken, bresaola fatback spare ribs ground round cillum hamburger corned beef. Turkey boudin fatback fugiat, swine pastrami shankle porchetta jowl. Flank cow shankle labore adipisicing id pancetta in tongue veniam.<br><br>
 
+            Incididunt chicken consectetur alcatra. Incididunt minim occaecat, tenderloin adipisicing consectetur cupim fugiat veniam consequat. Turducken burgdoggen tempor eiusmod, aliquip dolor cow frankfurter eu in nulla. Ad laboris aliqua capicola pork sunt rump cillum tempor officia id. Dolor short ribs salami bresaola tail rump, venison meatloaf jerky consequat chuck. Jerky tri-tip incididunt pancetta voluptate, dolore id commodo in sirloin laborum velit. Quis filet mignon ad exercitation, magna salami t-bone prosciutto chislic swine buffalo.
+        </p>
+        <div class="test-cards">
+            <div class="test-1">
+                <img src="testimonial-1.jpg" alt="Student 1" class="student-1">
+                <h2 class="career-path">JavaScript Engineer</h2>
+                <p class="testimonial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet assumenda porro ad hic quibusdam exercitationem.</p>
+                <div class="name">Name 1</div>
+            </div>
+            <div class="test-2">
+                <img src="testimonial-2.jpg" alt="Student 2" class="student-2">
+                <h2 class="career-path">Java Engineer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet assumenda porro ad hic quibusdam exercitationem.</p>
+                <div class="name">Name 2</div>
+            </div>
+            <div class="test-3">
+                <img src="testimonial-3.jpg" alt="Student 3" class="student-3">
+                <h2 class="career-path">Oracle Cloud Engineer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet assumenda porro ad hic quibusdam exercitationem.</p>
+                <div class="name">Name 3</div>
+            </div>
+            <div class="test-4">
+                <img src="testimonial-4.jpg" alt="Student 4" class="student-4">
+                <h2 class="career-path">Salesforce Consultant</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consectetur?.</p>
+                <div class="name">Name 4</div>
+            </div>
+        </div>
+        <p class="autor">By José Ignacio Cruz Reyes</p>
+    </body>
+</html>
